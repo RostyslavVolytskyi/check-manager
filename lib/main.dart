@@ -94,7 +94,7 @@ class _ImageCaptureState extends State<ImageCapture> {
               children: <Widget>[
                 FlatButton(
                   child: Icon(Icons.crop),
-                  // onPressed: _cropImage,
+                  onPressed: _cropImage,
                 ),
                 FlatButton(
                   child: Icon(Icons.refresh),
